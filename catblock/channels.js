@@ -213,7 +213,7 @@ class AprilFoolsCatsChannel extends Channel {
     }
 
     _getLatestListings(callback) {
-        $.get("http://localhost:8080/api/pets", function(resp){
+        $.get("https://lit-refuge-77106.herokuapp.com/api/pets", function(resp){
             if (resp) {
                 var result = [];
 
